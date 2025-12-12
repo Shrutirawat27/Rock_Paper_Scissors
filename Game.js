@@ -30,8 +30,8 @@ let outcomes = {
 for(let i = 0; i < weapons.length; i++){
     weapons[i].addEventListener("click", (e) => {
 
-        player.src = "Images/Rock.png";
-        computer.src = "Images/Rock.png";
+        player.src = "assets/Rock.png";
+        computer.src = "assets/Rock.png";
 
         weaponBox.style.display = "none";
         playerChoicesBox.style.display = "block";
@@ -49,7 +49,7 @@ for(let i = 0; i < weapons.length; i++){
             player.src = e.target.src;
 
             let randomChoice = computerChoices[Math.floor(Math.random() * computerChoices.length)];
-            computer.src = `Images/${randomChoice}.png`;
+            computer.src = `assets/${randomChoice}.png`;
 
             let userChoice = e.target.parentElement.className;
             let outcomeValue = outcomes[userChoice + randomChoice];
