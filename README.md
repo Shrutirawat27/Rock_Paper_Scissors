@@ -12,7 +12,7 @@ https://rock-paper-scissors-beta-ruby.vercel.app/
 - Responsive and clean UI  
 
 ## Screenshot 
-assets/RockPaperScissorsGame.png
+![Web Page Screenshot](assets/RockPaperScissorsGame.png)
 
 ## Technologies Used
 - HTML5  
